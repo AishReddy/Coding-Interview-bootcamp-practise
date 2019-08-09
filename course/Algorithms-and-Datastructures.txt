@@ -1,0 +1,9 @@
+What is data structure???
+It is a way to organize data in a way that enables it to be processed in an efficient time
+//the data which we play on
+
+What is algorithm?
+set of rules to solve a problem
+//the process we follow to achieve something
+
+DS in everyday life

@@ -1,0 +1,42 @@
+-same operation is multiple times with different inputs
+-in every step we make the problem smaller
+-we mandatorily have to tell the base condition to stop the process
+
+
+Example BST:
+-Lets say we are searching for a node
+search(node){
+if node==null then return
+else
+
+if(currentNode== searchNode)
+return true;
+else if(currentNode < SearchNode)
+search(currentNode->right);
+else
+search(currentNode->left);
+}
+}
+
+
+-Trees and graphs heavily uses the recursion
+-Greddy,Dynamic programming and divide and conquer use the recursion strategy.
+
+
+Format of the recursive function:
+1. recursive case - case where the function occurs
+2. base case - case where the function doesn't occur
+
+RecursiveFunction(node)
+{
+if(Base_condition)
+ignore
+else
+RecursiveFunction(nodex);
+}
+
+
+
+
+
+
