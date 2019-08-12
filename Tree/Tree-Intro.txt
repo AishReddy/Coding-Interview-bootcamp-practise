@@ -1,0 +1,4 @@
+What and why binary tree
+
+A Tree is called binary tree if the tree has atmost 2 children
+-BST,Heap tree,AVL,Red black,Syntax tree,Huffman coding tree are also BT

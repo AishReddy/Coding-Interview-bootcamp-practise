@@ -1,0 +1,42 @@
+-A tree is represented in a hierarchy form
+-Every node maintains two things i.e data and reference of its subcategory (child)
+-At the base we have 2 disjoint leading to left subtree and right subtree
+
+-Decision tree which one to go for
+
+Why do we need  tree????
+-in case  of linked list the insertion,deletion and the searching time complexity still remains 0(n)
+
+
+Terminology of trees
+-root : the one that doesn't have any parent
+-edge- a link between parent and the child
+-leaf- a node with no children
+-sibling- children of the same parent
+-Ancestor- it is parent ,grand parent and so on
+-Depth of the node- length of the path from root to node
+-Depth of the tree- same as the depth of the root node
+-Height of the node- length of the node to it's deepest node
+-Height of the tree- height of the root node (find the deepest node )
+
+Predecessor-it is the immediate previous node in inorder traversal of the binary tree
+//find out the inorder traversal ex - 12, 43 ,3 ,5
+the predecessor of 43 is 12
+
+Successor-it is the immediate next node in the inorder traversal of the binary tree
+//find out the inorder traversal ex - 12, 43 ,3 ,5
+the Successor of 12 is 43
+
+
+level of the tree
+             1    - 0 th level
+            / \
+           2   3   -1 st level
+          / \ / \
+
+
+Binary Search Tree
+The tree that has atmost 2 children is called a binary search tree
+every node in the binary search tree should fulfill this condition
+
+
